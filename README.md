@@ -2,7 +2,7 @@
 
 ## Algorithms
 
-**make_postage_stamps.py**: Create cutouts from calibrated jwst images.
+* **make_postage_stamps.py**: Create cutouts from calibrated jwst images.
 
 ## Author
 
