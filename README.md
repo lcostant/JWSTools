@@ -1,6 +1,6 @@
-Tools for dealing with JWST data
+# Tools for dealing with JWST data
 
-## Tools
+## Algorithms
 
 **make_postage_stamps.py**: Create cutouts from calibrated jwst images.
 
