@@ -2,6 +2,8 @@
 
 ## Algorithms
 
+* **download_jwst.py**: Download jwst imaging raw data (_uncal).
+
 * **make_postage_stamps.py**: Create cutouts from calibrated jwst images.
 
 ## Author
