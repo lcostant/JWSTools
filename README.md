@@ -15,7 +15,7 @@ usage: download_jwst.py [-h] [--ID [ID]]
                         [--filter [FILTER]]
                         [--detector [{NRCA1,NRCA2,NRCA3,NRCA4,NRCALONG,NRCB1,NRCB2,NRCB3,NRCB4,NRCBLONG,all}]]
 
-Download jwst raw data
+Download jwst raw data.
 
 options:
   -h, --help            show this help message and
