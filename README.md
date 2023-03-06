@@ -5,7 +5,7 @@
 * **download_jwst.py**: Download jwst imaging raw data (_uncal).
 
 ```console
-lcostant:~/MEGARA/N/ $  python 1_simulations_reduction.py -h                       
+lcostant:~$  python download_jwst.py -h                       
 usage: download_jwst.py [-h] [--ID [ID]]
                         [--instrument [{NIRCam,MIRI}]]
                         [--filter [FILTER]]
