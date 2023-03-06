@@ -6,7 +6,7 @@
 
 * **make_postage_stamps.py**: Create cutouts from calibrated jwst images.
 
-## Detailed info
+## How to use them
 
 ```console
 lcostant:~$  python download_jwst.py -h                       
