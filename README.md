@@ -8,6 +8,10 @@
 
 ## How to use them
 
+* ```bash
+lcostant:~$  python download_jwst.py --instrument 'NIRCam' --filter 'F200W' --detector 'NRCB1'
+```
+
 ```console
 lcostant:~$  python download_jwst.py -h                       
 usage: download_jwst.py [-h] [--ID [ID]]
