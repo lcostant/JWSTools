@@ -17,7 +17,7 @@ from astroquery.mast import Observations
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description='Download jwst raw data')
+    parser = argparse.ArgumentParser(description='Download jwst raw data.')
     parser.add_argument("--ID", help='"Proposal ID (default=0)"', 
                                 nargs='?', 
                                 type=int, 
