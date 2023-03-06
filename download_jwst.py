@@ -25,7 +25,7 @@ if __name__ == "__main__":
                                 default='0')
     parser.add_argument("--instrument", help='"Instrument (default=NIRCam)"', 
                                         nargs='?', 
-                                        choices=('NIRCam, MIRI'), 
+                                        choices=('NIRCam', 'MIRI'), 
                                         type=str, 
                                         const='NIRCam', 
                                         default='NIRCam')
