@@ -8,7 +8,7 @@
 
 ## How to use them
 
-* ```bash
+```bash
 lcostant:~$  python download_jwst.py --instrument 'NIRCam' --filter 'F200W' --detector 'NRCB1'
 ```
 
