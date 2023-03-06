@@ -8,9 +8,7 @@
 
 ## How to use them
 
-```bash
-lcostant:~$  python download_jwst.py --instrument 'NIRCam' --filter 'F200W' --detector 'NRCB1'
-```
+* **download_jwst.py**
 
 ```console
 lcostant:~$  python download_jwst.py -h                       
@@ -31,6 +29,8 @@ options:
   --detector [{NRCA1,NRCA2,NRCA3,NRCA4,NRCALONG,NRCB1,NRCB2,NRCB3,NRCB4,NRCBLONG,all}]
                         "Detector - NIRCam (default=all)"
 ```
+
+* **make_postage_stamps.py**
 
 ```console
 lcostant:~$  python make_postage_stamps.py -h                       
