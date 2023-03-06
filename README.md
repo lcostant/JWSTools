@@ -48,7 +48,7 @@ optional arguments:
   --dec [DEC]           "DEC of the target in degree - fk5 (default: None)"
   --coordfile [COORDFILE]
                         "File with ID, RA, DEC in degree - fk5 (default: None)"
-  --xycut [XYCUT]       "Size of the cutout in px (default: 200)"
+  --xycut [XYCUT]       "Size of the cutout in arcsec (default: 10)"
   --addframe [{True,False}]
                         "Create ERR and WHT frames additional (default: False)"
   --overwrite [{True,False}]
