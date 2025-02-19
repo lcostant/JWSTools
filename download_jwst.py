@@ -42,6 +42,16 @@ if __name__ == "__main__":
                                       type=str, 
                                       const='all', 
                                       default='all')
+    parser.add_argument("--ra", help='"RA (degree)"', 
+                                      nargs='?', 
+                                      type=float, 
+                                      const='10.0', 
+                                      default='10.0')
+    parser.add_argument("--dec", help='"DEC (degree)"', 
+                                      nargs='?', 
+                                      type=float, 
+                                      const='10.0', 
+                                      default='10.0')
     args = parser.parse_args()
 
 # GET YOUR OWN TOKEN HERE: https://auth.mast.stsci.edu/token'
@@ -57,7 +67,8 @@ if __name__ == "__main__":
                                             proposal_id=[args.ID], 
                                             instrument_name=args.instrument, 
                                             filters=jwst_filter,
-                                            dataproduct_type='image')
+                                            dataproduct_type='image',
+                                            s_dec=[args.ra,args.dec])
 
     products = Observations.get_product_list(obs_table)
 
